@@ -12,7 +12,7 @@ app.use(express.static('public3'))
 // aqui hacemos el llamdo de home.hbs no es necesario indicar el tipo de archivo
 app.get('/', (req, res) => {
     res.render('home2', {
-        nombre: 'Antonio Escobar',
+        nombre: 'Bernardo Culum',
         titulo:'Curso de Node'
     })
 })
